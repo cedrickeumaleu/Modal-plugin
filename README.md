@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+### `plugin modal`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Ce composant Modal est une fenêtre modale simple qui affiche un message et un bouton pour fermer la fenêtre. Voici une documentation détaillée pour ce composant :
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Composant Modal`
 
-### `npm test`
+Ce composant représente une fenêtre modale personnalisée qui peut être affichée ou masquée en fonction de la valeur de la propriété isOpen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Props`
 
-### `npm run build`
+isOpen: Un booléen qui contrôle l'affichage de la modal. Si (true), la modal est affichée ; si (false), elle est cachée.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+onClose: Une fonction de rappel qui est appelée lorsque l'utilisateur ferme la modal en cliquant sur le bouton de fermeture ou en cliquant en dehors de la modal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+message: Le message à afficher à l'intérieur de la modal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Methodes`
 
-### `npm run eject`
+handleClose: Une fonction interne utilisée pour gérer la fermeture de la modal. Elle est appelée lorsque l'utilisateur clique sur le bouton de fermeture.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `utilisation`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour utiliser ce composant, importez-le dans votre application React et intégrez-le là où vous souhaitez afficher une fenêtre modale.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `npm install modal@.1.0`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+installation
