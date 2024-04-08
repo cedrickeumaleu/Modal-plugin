@@ -27,6 +27,6 @@ handleClose: Une fonction interne utilisée pour gérer la fermeture de la modal
 
 Pour utiliser ce composant, importez-le dans votre application React et intégrez-le là où vous souhaitez afficher une fenêtre modale.
 
-### `npm install modal@.1.0`
+### `npm install madal`
 
 installation
