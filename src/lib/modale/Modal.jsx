@@ -13,7 +13,7 @@ const Modal = ({ isOpen, onClose, message }) => {
         <div className="modal-content">
           <span className="close" onClick={handleClose}>&times;</span>
           <p>{message}</p>
-          <button onClick={handleClose}>Close</button>
+          
         </div>
       </div>
     </div>
